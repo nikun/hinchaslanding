@@ -1,6 +1,7 @@
 #content {
 	margin-left: 35px;
 	margin-top: 10px;
+	position: relative;
 }
 
 #content h1 {

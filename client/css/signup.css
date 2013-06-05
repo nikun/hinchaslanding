@@ -1,0 +1,59 @@
+.signup-container{
+	width:454px;
+}
+.signup {
+	background: rgba(63,177,144,0.7);
+	padding-bottom: 1px;
+	padding-left: 25px;
+}
+
+.signup h5{
+	color:white;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 35px;
+}
+
+.signup .btn-primary{
+	border-radius: 15px;
+	height: 20px;
+	background: rgba(41, 41, 41, 0.66);
+	font-size: 13px;
+	width: 87px;
+}
+
+.signup-success {
+	background: rgba(0, 0, 0, 0.7);
+	color: white;	
+	margin-top:20px;
+	padding: 12px;
+}
+
+.share-container{
+	margin-top: 20px;	
+}
+
+.share-twitter-container{
+	margin-bottom: 10px;
+}
+
+#btnShareTw input{
+	background: url('/img/share_twitter.png');
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	width: 137px;
+	height: 32px;
+	border: none;
+	margin-bottom: 15px;
+}
+
+#btnShareFb input{
+	background: url('/img/share_facebook.png');
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	width: 136px;
+	height: 32px;
+	border: none;
+}

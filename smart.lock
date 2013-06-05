@@ -6,13 +6,25 @@
   },
   "dependencies": {
     "basePackages": {
-      "bootstrap-updated": {}
+      "bootstrap-updated": {},
+      "i18n": {},
+      "i18next-meteor": {}
     },
     "packages": {
       "bootstrap-updated": {
         "git": "https://github.com/Charuru/bootstrap-updated.git",
         "tag": "v1.0.1",
         "commit": "bdd5fcc8e134e62bcbb9d11aad8270534ffb6493"
+      },
+      "i18n": {
+        "git": "https://github.com/jerico-dev/meteor-i18n.git",
+        "tag": "v0.0.9",
+        "commit": "2cd6c72107a0d4afde57fb765ce9d57ad8ba43e2"
+      },
+      "i18next-meteor": {
+        "git": "https://github.com/ckir/i18next-meteor.git",
+        "tag": "v1.6.0",
+        "commit": "6d922cc0adea92904e51a2a153d26dd66fb2789d"
       }
     }
   }

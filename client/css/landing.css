@@ -6,6 +6,18 @@
 	width: auto; 
 	height: auto; 
 	z-index: -1000; 
-	overflow: hidden; 
+	overflow: hidden;	
+}
+
+#trama{
+	position: absolute; 
+	bottom: 0px; right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	/*z-index: -1001;*/ 
+	overflow: hidden;	
+	background: url('/img/filtro.png');
 }
 

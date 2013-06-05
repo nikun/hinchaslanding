@@ -1,6 +1,10 @@
-<template name='carrousel'>
-	<div id='hinchasCarrouselContainer'>
+<template name='carousel'>
+	<div id='hinchasCarouselContainer'>
 		<h3>ELLOS YA ESTAN INVITADOS!</h3>
-		<div id='carrousel'></div>
+		<div id='carousel'>
+			{{#each players}}
+				<img src='{{imageurl}}' class='img-player'>
+			{{/each}}
+		</div>
 	</div>
 </template>

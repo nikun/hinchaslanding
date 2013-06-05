@@ -9,21 +9,27 @@
 				</a>
 
 				<div class="nav-collapse">
-
+					<div class="nav pull-left">
+						<img src='/img/hinchas.png'>
+					</div>
 					<ul class="nav pull-right">
-						<li><a href="#">facebook</a></li>
-						<li><a href="#">twitter</a></li>
+						<li><a href="#"><img src='/img/facebook.png'>facebook</a></li>
+						<li><a href="#"><img src='/img/twitter.png'>twitter</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Español</a></li>
+								<li><a data-lang="en" class="language-selector" href="#">English</a></li>
 								<li class="divider"></li>
-								<li><a href="#">English</a></li>
+								<li><a data-lang="es" class="language-selector" href="#">Español</a></li>
 								<li class="divider"></li>
-								<li><a href="#">Portuguese</a></li>
+								<li><a data-lang="it" class="language-selector" href="#">Italiano</a></li>
 								<li class="divider"></li>
-								<!--usar la clase bottom-radius -->
-								<li><a href="#" class='bottom-radius'>French</a></li>
+								<li><a data-lang="de" class="language-selector" href="#">Deutsche</a></li>
+								<li class="divider"></li>
+								<li><a data-lang="fr" class="language-selector" href="#">Francais</a></li>
+								<li class="divider"></li>
+								<!--usar la clase bottom-radius para redondear el ultimo li -->
+								<li><a data-lang="pt" class="language-selector bottom-radius" href="#">Portugues</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -32,3 +38,4 @@
 		</div><!-- /navbar-inner -->
 	</div>
 </template>
+
