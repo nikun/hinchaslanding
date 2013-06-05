@@ -1,0 +1,18 @@
+#content {
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+#content h1 {
+	background: rgba(0,0,0,0.7);
+	color: white;
+	font-size: 63px;
+	font-weight: bold;
+	padding: 12px;
+	display: inline-table;
+}
+
+#content h1.secondary{
+	margin-top: -10px;
+	
+}

@@ -1,0 +1,8 @@
+.project
+npm-debug.log
+*.orig
+*~
+*.sublime-*
+.codeintel
+*.swp
+*.swo
