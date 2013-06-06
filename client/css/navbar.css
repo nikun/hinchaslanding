@@ -4,10 +4,43 @@
 	border: 0;
 	border-radius: 0;
 	padding: 10px 100px 0px 100px;
+	height: 65px;
+}
+}
+
+.navbar .nav > li{
+	margin-top: 13px;
 }
 
 .dropdown{
 	width: 135px;
+}
+
+#langs{
+	margin-top: 25px;
+}
+
+#langs .dropdown-toggle{
+	height: 20px;
+	line-height: 20px;
+}
+
+.social{
+	margin-top: 18px;
+}
+
+.social a{
+	height: 20px;
+	margin-top: 7px;
+}
+
+.social p{
+	display: inline-table;
+	margin-top: -2px;
+}
+
+.social img{
+	margin-top: -9px;
 }
 
 .navbar .nav > li > a{
@@ -48,14 +81,14 @@
 }
 
 .navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
-background: rgba(0,0,0,0.5);
-border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;
-margin-right: 0px;
-width: 127px;
-border-top-right-radius: 0;
-border-top-left-radius: 0;
-margin-top: 0px;
+	background: rgba(0,0,0,0.5);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-right: 0px;
+	width: 127px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	margin-top: 0px;
 }
 
 .navbar .nav > li > .dropdown-menu::after, 
@@ -106,14 +139,14 @@ margin-top: 0px;
 
 /* Large desktop */
 @media (min-width: 1200px) {}
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {}
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {}
