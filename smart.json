@@ -6,6 +6,7 @@
   "packages": {
     "bootstrap-updated": {},
     "i18n": {},
-    "i18next-meteor": {}
+    "i18next-meteor": {},
+    "carouFredSel": {}
   }
 }

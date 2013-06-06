@@ -8,7 +8,8 @@
     "basePackages": {
       "bootstrap-updated": {},
       "i18n": {},
-      "i18next-meteor": {}
+      "i18next-meteor": {},
+      "carouFredSel": {}
     },
     "packages": {
       "bootstrap-updated": {
@@ -25,6 +26,11 @@
         "git": "https://github.com/ckir/i18next-meteor.git",
         "tag": "v1.6.0",
         "commit": "6d922cc0adea92904e51a2a153d26dd66fb2789d"
+      },
+      "carouFredSel": {
+        "git": "https://github.com/mangasocial/meteor-carouFredSel.git",
+        "tag": "v0.1.1",
+        "commit": "058f3031c7fbaba3ffefabb167e67e3b10b63b4f"
       }
     }
   }
