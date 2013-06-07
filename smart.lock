@@ -9,7 +9,8 @@
       "bootstrap-updated": {},
       "i18n": {},
       "i18next-meteor": {},
-      "carouFredSel": {}
+      "carouFredSel": {},
+      "jquery-ui": {}
     },
     "packages": {
       "bootstrap-updated": {
@@ -31,6 +32,11 @@
         "git": "https://github.com/mangasocial/meteor-carouFredSel.git",
         "tag": "v0.1.1",
         "commit": "058f3031c7fbaba3ffefabb167e67e3b10b63b4f"
+      },
+      "jquery-ui": {
+        "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
+        "tag": "v1.9.2",
+        "commit": "c437d45edcf1367df8d5ffa8bad2867758030bd2"
       }
     }
   }
