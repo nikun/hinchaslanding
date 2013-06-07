@@ -6,7 +6,7 @@ Template.carousel.helpers({
 
 Template.carousel.rendered = function(){
 	 $("#carousel").carouFredSel({
-        items               : 4,
+        items               : 5,
         direction           : "left",
         scroll : {
             items           : 1,

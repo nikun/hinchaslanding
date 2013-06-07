@@ -2,7 +2,7 @@ devStartup = function() {
 
 	console.log('**************** LOADING MOCK DATA!!! ****************');
 
-	//Users.remove({});
+	Users.remove({});
 	if (Users.find({}).count() === 0) {
 
 		Users.insert({
@@ -16,7 +16,7 @@ devStartup = function() {
 			imageurl: 'http://4.bp.blogspot.com/-T0IVTBGQv7w/TuIPUGsk66I/AAAAAAAACvM/727phZ7tJpU/s1600/Diego+Maradona+-+The+Legend+of+Football+Player+-+The+Greatest+Player+in+the+World+goal.jpg'
 		});
 
-		for (i = 0; i < 3; i++) {
+		for (i = 0; i < 10; i++) {
 			Users.insert({
 				firstname: 'Sergio',
 				lastname: 'Aguero',
