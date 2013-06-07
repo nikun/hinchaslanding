@@ -6,8 +6,10 @@
 			<h5>Sumate vos tambien!</h5>
 			<form class="form-inline">
 				<fieldset>
-				<input type="text" id='txtEmail' class="input-xlarge search-query" placeholder="Ingresa tu correo electronico">
-				<div id='btnAceptar' class='btn btn-primary'>{{translate "landing.btnaceptar"}}</div>
+					<!-- The email input has properties to popover validation message. Should be i18nized -->
+					<input name='email' type="email" id='txtEmail' class="input-xlarge search-query" placeholder="Ingresa tu correo electronico" data-toggle='popover' data-animation='true' data-content='Por favor ingresa una dirección de email valida' data-placement='bottom' data-trigger='manual' data-title='Oops' required autofocus>
+					<input type='submit' class='btn btn-primary' id='btnAceptar' value="{{translate 'landing.btnaceptar'}}">
+					<!-- <div id='btnAceptar' class='btn btn-primary'>{{translate "landing.btnaceptar"}}</div> -->
 				</fieldset>
 			</form>
 		</div>

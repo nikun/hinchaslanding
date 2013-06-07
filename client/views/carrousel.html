@@ -3,8 +3,15 @@
 		<h3>ELLOS YA ESTAN INVITADOS!</h3>
 		<div id='carousel'>
 			{{#each players}}
-				<img src='{{imageurl}}' class='img-player'>
+				{{> player}}
 			{{/each}}
 		</div>
 	</div>
+</template>
+
+<template name='player'>
+	<!-- <div style='display:inline'> -->
+		<img src='{{imageurl}}' class='img-player'>
+		<!-- <p>{{firstname}}</p> -->
+	<!-- </div> -->
 </template>
