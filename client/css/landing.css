@@ -20,3 +20,35 @@
 	overflow: hidden;	
 	background: url('/img/filtro.png');
 }
+
+#viewcube{
+	background: green;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#viewcube{
+		background: black;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#viewcube{
+		background: red;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#viewcube{
+		background: yellow;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#viewcube{
+		background: blue;
+	}
+}
