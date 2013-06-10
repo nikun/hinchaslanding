@@ -1,5 +1,5 @@
 #content {
-	margin-left: 105px;
+	margin-left: 80px;
 	margin-top: 10px;
 	position: relative;
 }
@@ -7,20 +7,22 @@
 #content h1 {
 	background: rgba(0,0,0,0.7);
 	color: white;
-	font-size: 63px;
+	font-size: 79px;
 	font-weight: bold;
-	padding: 12px;
+	padding: 15px;
 	display: inline-table;
+	padding-top: 24px;
 }
 
 #content h1.secondary{
 	margin-top: -10px;
-	
-}
+
+	}
 
 #secondary-text p {
 	background: rgba(0, 0, 0, 0.7);
 	color: white;
 	padding: 12px;
-	max-width: 430px;	
+	/*max-width: 430px;	*/
+	margin-bottom: 25px;
 }
