@@ -10,13 +10,8 @@ Meteor.methods({
 
       Email.send({
         to: to,
-        from: "welcome@hinch.as",
         headers: {
-          "X-MC-Template": "register-" + locale + "-vip",
-          "X-MC-MergeVars": {
-            "fname": "sergio",
-            "lname": "aguero"
-          }
+          "X-MC-Template": "landing-" + locale
         }
       });
     }

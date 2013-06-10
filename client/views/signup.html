@@ -3,12 +3,12 @@
 		
 		
 		<div class='signup full-width' id='invite'>
-			<h5>Sumate vos tambien!</h5>
+			<h5>{{translate 'landing.signup'}}</h5>
 			<form class="form-inline">
 				<fieldset>
 					<!-- The email input has properties to popover validation message. Should be i18nized -->
-					<input name='email' type="email" id='txtEmail' class="input-xlarge search-query" placeholder="Ingresa tu correo electronico" data-toggle='popover' data-animation='true' data-content='Por favor ingresa una dirección de email valida' data-placement='bottom' data-trigger='manual' data-title='Oops' required autofocus>
-					<input type='submit' class='btn btn-primary' id='btnAceptar' value="{{translate 'landing.btnaceptar'}}">
+					<input name='email' type="email" id='txtEmail' class="input-xlarge search-query" placeholder="{{translate 'landing.mailplaceholder'}}" data-toggle='popover' data-animation='true' data-content='{{translate 'landing.mailerror'}}' data-placement='bottom' data-trigger='manual' required autofocus>
+					<input type='submit' class='btn btn-primary' id='btnAceptar' value="{{translate 'landing.btnaccept'}}">
 					<!-- <div id='btnAceptar' class='btn btn-primary'>{{translate "landing.btnaceptar"}}</div> -->
 				</fieldset>
 			</form>
@@ -18,12 +18,12 @@
 		<div class='signup-success full-width' id='thks' style='display:none'>
 			<div class='row-fluid'>					
 				<div class='span8'>
-					<h5>Bienvenido!</h5>
-					<p>Ya sos parte del dia mundial del Hincha, invita a tus amigos a formar parte de la fiesta</p>
+					<h5>{{translate 'landing.sharetitle'}}</h5>
+					<p>{{translate 'landing.sharetext'}}</p>
 				</div>
 				<div class='span4 share-container'>
-					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>Compartir</div></a>
-					<a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><div id='btnShareFb' class='btn btn-primary'>Compartir</div>
+					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>{{translate 'landing.btnshare'}}</div></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div>
 					</a>						
 				</div>
 			</div>
