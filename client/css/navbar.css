@@ -1,3 +1,7 @@
+.navbar{
+	border-top: 5px solid #3FB190;
+}
+
 .navbar-inner{
 	background: rgba(0, 0, 0, 0.3);
 	/*opacity: 0.5;*/
@@ -6,10 +10,9 @@
 	padding: 10px 100px 0px 100px;
 	height: 65px;
 }
-}
 
-.navbar .nav > li{
-	margin-top: 13px;
+.navbar .nav > li {
+margin-top: 18px;
 }
 
 .dropdown{

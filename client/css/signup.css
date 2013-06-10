@@ -1,10 +1,12 @@
 .signup-container{
-	width:454px;
+	/*width:454px;*/
 }
 .signup {
 	background: rgba(63,177,144,1);
 	padding-bottom: 1px;
 	padding-left: 25px;
+	margin-top: -10px;
+	box-shadow: 0px 2px 7px rgb(24, 24, 24) inset;
 }
 
 .signup h5{
@@ -12,6 +14,7 @@
 	font-size: 22px;
 	font-weight: 200;
 	line-height: 35px;
+	padding-top: 10px;
 }
 
 .signup .btn-primary{
@@ -37,23 +40,27 @@
 	margin-bottom: 10px;
 }
 
-#btnShareTw input{
+#btnShareTw {
 	background: url('/img/share_twitter.png');
 	color: white;
 	font-weight: normal;
 	font-size: 12px;
-	width: 137px;
-	height: 32px;
+	width: 110px;
+	height: 23px;
 	border: none;
+	border-radius: 0;
+	box-shadow: 0 0;
 	margin-bottom: 15px;
 }
 
-#btnShareFb input{
+#btnShareFb{
 	background: url('/img/share_facebook.png');
 	color: white;
 	font-weight: normal;
 	font-size: 12px;
-	width: 136px;
-	height: 32px;
+	width: 110px;
+	height: 23px;
 	border: none;
+	border-radius: 0;
+	box-shadow: 0 0;
 }
