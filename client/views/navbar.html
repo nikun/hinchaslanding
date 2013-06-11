@@ -7,37 +7,49 @@
 						<img id='imgLogo' src='/img/hinchas.png'>
 				</div>
 
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</a>
+				</a> -->
 
-				<div class="nav-collapse">
-					<ul class="nav pull-right">
-						<li class='social'><a href="#"><img src='/img/facebook.png'><p>facebook</p></a></li>
-						<li class='social'><a href="#"><img src='/img/twitter.png'><p>twitter</p></a></li>
-						<li class="dropdown" id='langs'>
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{translate 'landing.language'}}<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a data-lang="en" class="language-selector" href="#">English</a></li>
-								<li class="divider"></li>
-								<li><a data-lang="es" class="language-selector" href="#">Español</a></li>
-								<li class="divider"></li>
-								<li><a data-lang="it" class="language-selector" href="#">Italiano</a></li>
-								<li class="divider"></li>
-								<li><a data-lang="de" class="language-selector" href="#">Deutsche</a></li>
-								<li class="divider" style='background-color:inherit'></li>
-								<li><a data-lang="fr" class="language-selector" href="#">Francais</a></li>
-								<li class="divider"></li>
-								<!--usar la clase bottom-radius para redondear el ultimo li -->
-								<li><a data-lang="pt" class="language-selector bottom-radius" href="#">Portugues</a></li>
-							</ul>
-						</li>
+				<!-- <div class="nav-collapse"> -->
+				<div class='dropdown pull-right' id='mlangs'>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class='icon-globe icon-3x'></i></a>
+					<ul class='dropdown-menu' role='menu'>
+						{{> langDropdown}}
 					</ul>
-				</div><!-- /.nav-collapse -->
+				</div>
+
+
+				<ul class="nav pull-right" id='largemenu'>
+					<li class='social'><a href="#"><img src='/img/facebook.png'><p>facebook</p></a></li>
+					<li class='social'><a href="#"><img src='/img/twitter.png'><p>twitter</p></a></li>
+					<li class="dropdown" id='langs'>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							{{> langDropdown}}	
+						</ul>
+					</li>
+				</ul>
+				<!-- </div> --><!-- /.nav-collapse -->
 			</div>
 		</div><!-- /navbar-inner -->
 	</div>
+</template>
+
+<template name='langDropdown'>
+	<li><a data-lang="en" class="language-selector" href="#">English</a></li>
+	<li class="divider"></li>
+	<li><a data-lang="es" class="language-selector" href="#">Español</a></li>
+	<li class="divider"></li>
+	<li><a data-lang="it" class="language-selector" href="#">Italiano</a></li>
+	<li class="divider"></li>
+	<li><a data-lang="de" class="language-selector" href="#">Deutsche</a></li>
+	<li class="divider" style='background-color:inherit'></li>
+	<li><a data-lang="fr" class="language-selector" href="#">Francais</a></li>
+	<li class="divider"></li>
+	<!--usar la clase bottom-radius para redondear el ultimo li -->
+	<li><a data-lang="pt" class="language-selector bottom-radius" href="#">Portugues</a></li>
 </template>
 
