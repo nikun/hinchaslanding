@@ -18,11 +18,12 @@
 }
 
 .signup .btn-primary{
-	border-radius: 15px;
+	border-radius: 10px;
 	/*height: 20px;*/
-	background: rgba(41, 41, 41, 0.66);
+	background: #333;
 	font-size: 13px;
 	width: 87px;
+	margin-left: 20px;
 }
 
 .signup-success {
@@ -64,4 +65,8 @@
 	border: none;
 	border-radius: 0;
 	box-shadow: 0 0;
+}
+
+#txtEmail{
+	border-radius: 10px;
 }
