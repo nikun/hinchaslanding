@@ -45,31 +45,48 @@
 }
 
 #btnShareTw {
-	background: url('/img/share_twitter.png');
+	background: url('/img/share_twitter.png') no-repeat;
 	color: white;
 	font-weight: normal;
-	font-size: 12px;
-	width: 110px;
+	font-size: 13px;
+	width: 112px;
 	height: 23px;
 	border: none;
 	border-radius: 0;
 	box-shadow: 0 0;
 	margin-bottom: 15px;
+	padding-left: 46px;
+	padding-top: 5px;
+	text-align: inherit;
 }
 
 #btnShareFb{
-	background: url('/img/share_facebook.png');
+	background: url('/img/share_facebook.png') no-repeat;
 	color: white;
 	font-weight: normal;
-	font-size: 12px;
-	width: 110px;
+	font-size: 13px;
+	width: 112px;
 	height: 23px;
 	border: none;
 	border-radius: 0;
 	box-shadow: 0 0;
+	padding-left: 46px;
+	padding-top: 5px;
+	text-align: inherit;
 }
 
 #txtEmail{
 	border-radius: 10px;
 	width: 340px;
+}
+
+#sharetitle{
+	font-size: 20px;
+}
+#btnsocialcontainer{
+	padding-left: 42px;
+}
+
+.popover-title {
+	padding: initial;
 }
