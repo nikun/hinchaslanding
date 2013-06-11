@@ -41,52 +41,52 @@ devStartup = function() {
 			},
 			"title1": {
 				"i18n": {
-					"de": "DER INTERNATIONALE TAG",
-					"en": "INTERNATIONAL",
-					"es": "EL DIA MUNDIAL",
-					"fr": "LA JOURNEE MONDIALE",
-					"it": "GIORNO MONDIALE",
-					"pt": "O DIA MUNDIAL"
+					"de": "Der internationale tag",
+					"en": "International",
+					"es": "El día mundial",
+					"fr": "La journee mondiale",
+					"it": "Giorno mondiale",
+					"pt": "O dia mundial"
 				}
 			},
 			"title1b": {
 				"i18n": {
-					"de": "DES FUSSBALLFANS",
-					"en": "FOOTBALL FAN DAY",
-					"es": "DEL HINCHA",
-					"fr": "DU SUPPORTER",
-					"it": "DEL TIFOSO",
-					"pt": "DO TORCEDOR"
+					"de": "des fussballfans",
+					"en": "football fan day",
+					"es": "del hincha",
+					"fr": "du supporter",
+					"it": "del tifoso",
+					"pt": "do torcedor"
 				}
 			},
 			"title2": {
 				"i18n": {
-					"de": "Weil unser Herz schneller schlägt jedes Mal wenn die Anfangspeife ertönt. Weil  wir Gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei  aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind  wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern.",
-					"en": "Because every time we hear the starting whistle our heart accelerates. Because  when we see our team’s colors we get goose bumps and when the ball approaches  the goal an unstoppable scream unleashes from our chest, we deserve to  choose a day to celebrate our love for football.",
-					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque  cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota  se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir  un día para celebrar nuestro amor por el fútbol.",
-					"fr": "Bientôt nous t’enverrons des nouveautés et un accès exclusif au réseau.Parce  sans tes encouragements, le football n’est rien.Et sur HINCH.AS ta voix est entendue.",
-					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera.  Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando  la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile…Meritiamodi  scegliere un giorno per celebrare il nostro amore per il calcio.",
-					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque  ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima  da goleiracresce em nosso peito um grito irreprimível, merecemos escolher um dia para  celebrar o nosso amor pelo futebol."
+					"de": "Gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern. ",
+					"en": "Because every time we hear the starting whistle our heart accelerates. Because when we see our team’s colors we get goose bumps and when the ball approaches the goal an unstoppable scream unleashes from our chest, we deserve to choose a day to celebrate our love for football.",
+					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir un día para celebrar nuestro amor por el fútbol.",
+					"fr": "Parce que notre cœur s’accélère chaque fois que sonne le coup de sifflet du début. Parce que nous avons la chaire de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, croît en nous un cri non contenu. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
+					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera. Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile… Meritiamodi scegliere un giorno per celebrare il nostro amore per il calcio.",
+					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima da goleiracresce em nosso peito um grito irreprimível, merecemos escolher um dia para celebrar o nosso amor pelo futebol."
 				}
 			},
 			"title3": {
 				"i18n": {
-					"de": "SIE MACHEN SCHON MIT:",
-					"en": "THEY HAVE ALREADY JOINED:",
-					"es": "ELLOS YA SE SUMARON:",
-					"fr": "ILS SE SONT DÉJÀ JOINTS:",
-					"it": "LORO SI SONO GIÁ INCORPORATI:",
-					"pt": "ELES JÁ ADERIRAM:"
+					"de": "SIE MACHEN SCHON MIT",
+					"en": "THEY HAVE ALREADY JOINED",
+					"es": "ELLOS YA SE SUMARON",
+					"fr": "ILS SE SONT DÉJÀ JOINTS",
+					"it": "LORO SI SONO GIÁ INCORPORATI",
+					"pt": "ELES JÁ ADERIRAM"
 				}
 			},
 			"signup": {
 				"i18n": {
-					"de": "Mach Du auch mit.",
-					"en": "Join us too.",
-					"es": "Súmate tú también.",
-					"fr": "Toi et combien d’autres? Invite tes amis à choisir leur journée.",
-					"it": "In Hinch.as, il calcio ti ascolta.",
-					"pt": "Una-se você também."
+					"de": "Mach Du auch mit",
+					"en": "Join us too",
+					"es": "Súmate tú también",
+					"fr": "Toi et combien d’autres? Invite tes amis à choisir leur journée",
+					"it": "In Hinch.as, il calcio ti ascolta",
+					"pt": "Una-se você também"
 				}
 			},
 			"btnaccept": {

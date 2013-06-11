@@ -24,10 +24,11 @@
 h3.carousel-title{ 
 	background-color: #F2C700;
 	max-width: 360px;
-	color: #51440F;
-	font-weight: 200;
+	color: #333;
+	font-weight: 400;
 	margin-bottom: 5px;
 	padding-left: 10px;
+	padding-right: 10px;
 	display: inline-table;
 }
 

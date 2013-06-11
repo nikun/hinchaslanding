@@ -12,23 +12,31 @@
 	padding: 15px;
 	display: inline-table;
 	padding-top: 24px;
+	padding-bottom: 27px;
 }
 
+#content h1.primary{
+	
+}
 #content h1.secondary{
 	margin-top: -10px;
+	padding-top: 18px;
 }
 
 #title0{
 	background: rgba(0,0,0,0.7);
 	color: white;	
-	font-weight: bold;
+	font-weight: 400;
+	font-size: 18px;
 	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
 	display: inline-table;
 }
 
 #secondary-text {
-	background: rgba(0, 0, 0, 0.7);
-	color: white;
+	background: white;
+	color: black;
 	padding: 12px;
 	word-wrap: break-word;
 	/*max-width: 430px;	*/
