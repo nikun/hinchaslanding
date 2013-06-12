@@ -19,15 +19,15 @@ Template.carousel.rendered = function(){
 		},
 		auto    : {
 			onBefore: function( data ) {
-				unhighlight( data.items.old );
+				// unhighlight( data.items.old );
 			},
 			onAfter : function( data ) {
-				highlight( data.items.visible );
+				// highlight( data.items.visible );
 			}
 		}         
 	});
 
-	highlight( unhighlight( $("#carousel > *") ) );
+	// highlight( unhighlight( $("#carousel > *") ) );
 
 
 }

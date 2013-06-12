@@ -2,27 +2,16 @@
 	<div class="navbar">
 		<div class="navbar-inner">
 			<div class="container" style="width: auto;">
-
 				<div class="nav pull-left">
-						<img id='imgLogo' src='/img/hinchas.png'>
+					<img id='imgLogo' src='/img/hinchas.png'>
 				</div>
-
-		<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a> -->
-
-				<!-- <div class="nav-collapse"> -->
-				<div class='dropdown pull-right' id='mlangs'>
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class='icon-globe icon-3x'></i></a>
-					<ul class='dropdown-menu' role='menu'>
+				<a class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><i class='icon-globe icon-3x'></i></a>
+				<div class="nav-collapse hidden-desktop">
+					<ul class='nav nav-menu' role='menu'>
 						{{> langDropdown}}
 					</ul>
-				</div>
-
-
-				<ul class="nav pull-right" id='largemenu'>
+				</div> 
+				<ul class="nav pull-right visible-desktop" id='largemenu'>
 					<li class='social'><a href="#"><img src='/img/facebook.png'><p>facebook</p></a></li>
 					<li class='social'><a href="#"><img src='/img/twitter.png'><p>twitter</p></a></li>
 					<li class="dropdown" id='langs'>
@@ -32,9 +21,8 @@
 						</ul>
 					</li>
 				</ul>
-				<!-- </div> --><!-- /.nav-collapse -->
 			</div>
-		</div><!-- /navbar-inner -->
+		</div>
 	</div>
 </template>
 

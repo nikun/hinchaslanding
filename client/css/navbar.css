@@ -46,7 +46,7 @@
 	margin-top: -9px;
 }
 
-#largemenu > li > a{
+#largemenu > li > a, .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
 	text-shadow:inherit;
 	color:white;
 	text-align: center;
@@ -129,9 +129,24 @@
 	margin-top: 12px;
 }
 
+.navbar .btn-navbar{
+	color: white;
+	background: transparent;
+	box-shadow: 0 0;
+	cursor: pointer;
+}
+
+.navbar .btn-navbar:hover{
+	color: #33B595;
+	text-decoration: none;
+	background: transparent;
+	box-shadow: 0 0;
+}
+
 #largemenu{
 	display: block;
 }
+
 
 
 
@@ -151,56 +166,59 @@
 /* Large desktop */
 @media (min-width: 1200px) {
 	
-	#mlangs{
+/*	#mlangs{
 		display: none;
 	}
 	#largemenu{
 		display: block;
-	}
+	}*/
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
-	#mlangs{
+	/*#mlangs{
 		display: inline;
 	}
 	#largemenu{
 		display: none;
-	}	
-	.navbar-inner{
-		padding: inherit;
-		padding-left: 40px;
-		padding-right: 40px;
+		}	*/
+		.navbar-inner{
+			padding: inherit;
+			padding-left: 40px;
+			padding-right: 40px;
+			height: auto;
+		}
 	}
-}
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	#mlangs{
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+/*	#mlangs{
 		display: inline;
 	}
 	#largemenu{
 		display: none;
-	}	
-	.navbar-inner{
-		padding: inherit;
-		padding-left: 40px;
-		padding-right: 40px;
+		}*/	
+		.navbar-inner{
+			padding: inherit;
+			padding-left: 40px;
+			padding-right: 40px;
+			height: auto;
+		}
 	}
-}
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-	#mlangs{
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+/*	#mlangs{
 		display: inline;
 	}	
 	#largemenu{
 		display: none;
+		}*/
+		.navbar-inner{
+			padding: inherit;
+			padding-left: 40px;
+			padding-right: 40px;
+			height: auto;
+		}	
 	}
-	.navbar-inner{
-		padding: inherit;
-		padding-left: 40px;
-		padding-right: 40px;
-	}	
-}

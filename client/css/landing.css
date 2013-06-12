@@ -30,6 +30,8 @@ body,html,input {
 
 #viewcube{
 	background: green;
+	position: fixed;
+	top: 0;
 }
 #hinchasFooter{	
 	background-color: white;
@@ -53,11 +55,30 @@ body,html,input {
 		background: black;
 	}
 }
+
+@media (min-width: 980px) and (max-width: 1199px){
+	#viewcube{
+		background: brown;
+	}	
+}
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	#viewcube{
 		background: red;
+	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 90%;
 	}
 }
  
@@ -66,11 +87,44 @@ body,html,input {
 	#viewcube{
 		background: yellow;
 	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 98%;
+	}
+
+	#content h1{
+		font-size: 70px
+	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#viewcube{
 		background: blue;
+	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 90%;
+	}
+
+	#content h1{
+		font-size: 55px
 	}
 }
