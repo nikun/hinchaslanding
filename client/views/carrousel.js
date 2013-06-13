@@ -53,6 +53,12 @@ function runCarousel(selector,items,width){
 	// highlight( unhighlight( $("#carousel > *") ) );
 }
 
+Meteor.methods({
+	runCarousel: function(selector,items,width){
+		runCarousel(selector,items,width);
+	}
+});
+
 function highlight( items ) {
 	items.filter(":eq(2)").find("img").css({
 		width: 150,
