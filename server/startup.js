@@ -1,6 +1,7 @@
 Meteor.startup(function() {
+   console.log('node_env: '+process.env.NODE_ENV);
    switch (process.env.NODE_ENV) { // Or use Meteor.settings
-         case "DEV":
+         case "development":
             console.log('******************************************************************************');
             console.log('**************** Initializing Hinchas Development Environment ****************');
 
