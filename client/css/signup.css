@@ -107,20 +107,29 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	.signup {
+		padding-left: 20px;
+	}
 	
+	.signup .btn-primary {
+		margin-top: 10px;
+		margin-left: 0px;
+	}
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	
+	#txtEmail{
+		width: 96%;
+	}	
 
 	.signup {
 		padding-left: 13px;
 	}
 
-	.signup .btn-primary{
+	.signup .btn-primary {
 		margin-top: 10px;
-		margin-left: 113px;
+		margin-left: 138px;
 	}
-
 }

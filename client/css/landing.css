@@ -31,6 +31,7 @@ body,html,input {
 	background: green;
 	position: fixed;
 	top: 0;
+	right:0;
 }
 #hinchasFooter{	
 	background-color: white;
