@@ -7,7 +7,7 @@
 			<form class="form-inline">
 				<fieldset>
 					<!-- The email input has properties to popover validation message. Should be i18nized -->
-					<input name='email' type="email" id='txtEmail' class="input-xlarge search-query" placeholder='{{translate 'landing.mailplaceholder'}}' data-toggle='popover' data-animation='true' data-content='{{translate 'landing.mailerror'}}' data-placement='bottom' data-trigger='manual' required autofocus>
+					<input name='email' type="email" id='txtEmail' class="input-xlarge search-query" placeholder='{{translate 'landing.mailplaceholder'}}' data-toggle='popover' data-animation='true' data-content='{{translate 'landing.mailerrorreq'}}' data-placement='bottom' data-trigger='manual' required autofocus>
 					<input type='submit' class='btn btn-primary' id='btnAceptar' value="{{translate 'landing.btnaccept'}}">
 					<!-- <div id='btnAceptar' class='btn btn-primary'>{{translate "landing.btnaceptar"}}</div> -->
 				</fieldset>
@@ -20,6 +20,19 @@
 				<div class='span8'>
 					<h5 id='sharetitle'>{{translate 'landing.sharetitle'}}</h5>
 					<p>{{translate 'landing.sharetext'}}</p>
+				</div>
+				<div class='span4 share-container' id='btnsocialcontainer'>
+					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>{{translate 'landing.btnshare'}}</div></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div>
+					</a>						
+				</div>
+			</div>
+		</div>
+
+		<div class='signup-success full-width' id='thksMailRepeated' style='display:none'>
+			<div class='row-fluid'>					
+				<div class='span8'>					
+					<p>{{translate 'landing.mailerrorrepeated'}}</p>
 				</div>
 				<div class='span4 share-container' id='btnsocialcontainer'>
 					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>{{translate 'landing.btnshare'}}</div></a>

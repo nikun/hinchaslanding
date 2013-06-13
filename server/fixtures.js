@@ -119,21 +119,21 @@ devStartup = function() {
 					"pt": "Idioma"
 				}
 			},
-			"sharetitle": {
-				"i18n": {
-					"de": "aceptarDE",
-					"en": "Welcome!",
-					"es": "Bienvenido!",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
-				}
-			},
 			"btnshare": {
 				"i18n": {
 					"de": "aceptarDE",
 					"en": "Share",
 					"es": "Compartir",
+					"fr": "aceptarFR",
+					"it": "aceptarIT",
+					"pt": "aceptarPT"
+				}
+			},
+			"sharetitle": {
+				"i18n": {
+					"de": "aceptarDE",
+					"en": "Welcome!",
+					"es": "Bienvenido!",
 					"fr": "aceptarFR",
 					"it": "aceptarIT",
 					"pt": "aceptarPT"
@@ -159,14 +159,24 @@ devStartup = function() {
 					"pt": "Eu vou escolher o DIA MUNDIAL DO TORCEDOR"
 				}
 			},
-			"mailerror": {
+			"mailerrorreq": {
 				"i18n": {
-					"de": "aceptarDE",
-					"en": "Please enter a valid email address.",
-					"es": "Por favor ingresa una dirección de email valida.",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"de": "Geben Sie bitte eine gültige E-mail Adresse ein, um mehr Neuigkeiten überHINCH.AS zu erhalten",
+					"en": "Please enter a valid email address to have access to more HINCH.AS news",
+					"es": "Por favor, ingrese una dirección de correo electrónico válida para tener más noticias de HINCH.AS",
+					"fr": "S’il vous plaît, veuillez entrer une adresse e-mail valide pour recevoir plus de nouvelles d’HINCH.AS",
+					"it": "Per favore, indicare un indirizzo di email valido per ricevere altre notizie di HINCH.AS",
+					"pt": "Por favor, cadastre um endereço eletrônico válido para receber mais noticias de HINCH.AS"
+				}
+			},
+			"mailerrorrepeated": {
+				"i18n": {
+					"de": "Diese E-Mail Adresse ist bereits registriert",
+					"en": "The email address you entered has already been registered",
+					"es": "La dirección de correo que ingresó ya está registrada",
+					"fr": "Cette adresse email est déjà utilisée",
+					"it": "Questo indirizzo email è già stato utilizzato",
+					"pt": "Esse e-mail já está registrado"
 				}
 			},
 			"footer": {
