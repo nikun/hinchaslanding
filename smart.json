@@ -4,7 +4,6 @@
     "branch": "master"
   },
   "packages": {
-    "bootstrap-updated": {},
     "i18n": {},
     "i18next-meteor": {},
     "carouFredSel": {},

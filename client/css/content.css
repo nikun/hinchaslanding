@@ -42,3 +42,71 @@
 	/*max-width: 430px;	*/
 	margin-bottom: 25px;
 }
+
+/* Large desktopp*/
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+	#contentContainer{
+		width: 670px;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 90%;
+		max-width: 732px;
+	}
+	#content h1{
+		font-size: 73px
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 98%;
+		max-width: 466px;
+	}
+
+	#content h1{
+		font-size: 45px
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#content h1{
+		font-size: 37px;
+		padding: 6px 17px 10px;
+	}
+
+	#content h1.secondary {
+		margin-top: -10px;
+		padding-top: 0px;
+	}
+}

@@ -1,23 +1,33 @@
 <template name='carousel'>
-	<h3 class='carousel-title'>{{translate 'landing.title3'}}</h3>
-	<div id='hinchasCarouselContainer'>
-		<div id='carousel' style='height: auto'>
-			
-			{{#each players}}
+	<div class='visible-desktop'>
+		<h3 class='carousel-title'>{{translate 'landing.title3'}}</h3>
+		<div id='hinchasCarouselContainer'>
+			<div id='carousel' style='height: auto'>
+				{{#each players}}
 				{{> player}}
-			{{/each}}
-			
+				{{/each}}
+			</div>
 		</div>
 	</div>
 </template>
 
+<template name='carouselmobile'>
+	<div class='hidden-desktop'>
+		<h3 class='carousel-title'>{{translate 'landing.title3'}}</h3>
+		<div id='hinchasCarouselContainer'>
+			<div id='carouselm' style='height: auto'>
+				{{#each players}}
+				{{> player}}
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</template>
+
+
+
 <template name='player'>
-	
-	<!-- <div style='width:100px;height:100px;background:black'> -->
-		<a href="#" class='transition'>
-			<img src='{{imageurl}}' class='img-player'><p>{{firstname}}</p>
-		</a>
-		<!-- <span>{{firstname}}</span> -->
-	<!-- </div> -->
-	
+	<a href="#" class=''>
+		<img src='{{imageurl}}' class='img-player'><p>{{firstname}}</p>
+	</a>
 </template>

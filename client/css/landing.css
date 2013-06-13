@@ -23,13 +23,14 @@ body,html,input {
 	min-height: 100%; 
 	width: auto; 
 	height: auto; 
-	/*z-index: -1001;*/ 
 	overflow: hidden;	
 	background: url('/img/filtro.png');
 }
 
 #viewcube{
 	background: green;
+	position: fixed;
+	top: 0;
 }
 #hinchasFooter{	
 	background-color: white;
@@ -43,34 +44,63 @@ body,html,input {
 
 .mainContainer{
 	width: 100%;
-	/*height: 80%;*/
 	height: 725px;
 }
 
-/* Large desktop */
+/* Large desktop*/
 @media (min-width: 1200px) {
 	#viewcube{
 		background: black;
 	}
 }
- 
+
+@media (min-width: 980px) and (max-width: 1199px){
+	#viewcube{
+		background: brown;
+	}	
+
+	#contentContainer{
+		width: 670px;
+	}
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	#viewcube{
 		background: red;
 	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	#viewcube{
 		background: yellow;
 	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#viewcube{
 		background: blue;
 	}
+
+	html{
+		min-width: 425px;
+	}
+
+	body{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
