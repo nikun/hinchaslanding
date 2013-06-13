@@ -62,8 +62,8 @@
 	}
 
 	#contentContainer{
-		width: 90%;
-		max-width: 732px;
+		max-width: 600px;
+		width: 600px;
 	}
 	#content h1{
 		font-size: 73px
@@ -77,20 +77,26 @@
 		margin-top: 0;
 	}
 
-	#contentContainer{
+	#contentContainer {
+		max-width: 468px;
 		width: 98%;
-		max-width: 466px;
 	}
 
-	#content h1{
-		font-size: 45px
+	#content h1 {
+		font-size: 45px;
+		padding: 6px 16px 10px;
+	}
+
+	#content h1.secondary {
+		margin-top: -10px;
+		padding-top: 0px;
 	}
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#content{
-		margin-left: 10px;
+		margin-left: 0px;
 		margin-top: 0;
 	}
 
@@ -100,10 +106,11 @@
 		margin-right: auto;
 	}
 
-	#content h1{
-		font-size: 37px;
-		padding: 6px 17px 10px;
+	#content h1 {
+		font-size: 39px;
+		padding: 6px 16px 10px;
 	}
+
 
 	#content h1.secondary {
 		margin-top: -10px;

@@ -32,7 +32,7 @@ function custom(){
 }
 
 function tablet(){
-	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 		if(error)console.log(error);
 	});
 }
