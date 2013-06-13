@@ -149,6 +149,16 @@ devStartup = function() {
 					"pt": "aceptarPT"
 				}
 			},
+			"sharetextsocialnet": {
+				"i18n": {
+					"de": "Ich werde den internationalen Tag des Fussballfans wählen",
+					"en": "I'm going to choose the International Football Fan Day",
+					"es": "Yo voy a elegir El Día Mundial del Hincha",
+					"fr": "Je vais choisir la Journée Mondiale du Supporter",
+					"it": "Io sceglieró il Giorno Mondiale del Tifoso",
+					"pt": "Eu vou escolher o DIA MUNDIAL DO TORCEDOR"
+				}
+			},
 			"mailerror": {
 				"i18n": {
 					"de": "aceptarDE",
