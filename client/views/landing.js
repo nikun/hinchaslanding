@@ -19,21 +19,32 @@ function evalSize(){
 }
 
 function bigDesktop(){
-	console.log("desktop");
+	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
+		if(error)console.log(error);
+	});
+	
 }
 
 function custom(){
-	console.log("custom");
+	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
+		if(error)console.log(error);
+	});
 }
 
 function tablet(){
-	console.log("tablet");
+	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+		if(error)console.log(error);
+	});
 }
 
 function landPhone(){
-	console.log("landphone");
+	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+		if(error)console.log(error);
+	});
 }
 
 function phone(){
-	console.log("phone");
+	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+		if(error)console.log(error);
+	});
 }
