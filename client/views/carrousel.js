@@ -4,11 +4,34 @@ Template.carousel.helpers({
 	}
 });
 
+Template.carouselmobile.helpers({
+	players: function() {
+		return Users.find({});
+	}
+});
+
+
 Template.carousel.rendered = function(){
-	$("#carousel").carouFredSel({
+	var items,width,selector;
+	items=5;
+	width=585;
+	selector="#carousel";
+	runCarousel(selector,items,width);	
+};
+
+Template.carouselmobile.rendered = function(){
+	var items,width,selector;
+	items=3;
+	width=400;
+	selector="#carouselm";
+	runCarousel(selector,items,width);	
+};
+
+function runCarousel(selector,items,width){
+	$(selector).carouFredSel({
 		height				: "auto",
-		width				: 585,
-		items               : 5,
+		width				: width,
+		items               : items,
 		direction           : "left",
 		responsive			: false,
 		scroll : {
@@ -28,8 +51,6 @@ Template.carousel.rendered = function(){
 	});
 
 	// highlight( unhighlight( $("#carousel > *") ) );
-
-
 }
 
 function highlight( items ) {

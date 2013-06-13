@@ -23,7 +23,6 @@ body,html,input {
 	min-height: 100%; 
 	width: auto; 
 	height: auto; 
-	/*z-index: -1001;*/ 
 	overflow: hidden;	
 	background: url('/img/filtro.png');
 }
@@ -45,11 +44,10 @@ body,html,input {
 
 .mainContainer{
 	width: 100%;
-	/*height: 80%;*/
 	height: 725px;
 }
 
-/* Large desktop */
+/* Large desktop*/
 @media (min-width: 1200px) {
 	#viewcube{
 		background: black;
@@ -60,8 +58,12 @@ body,html,input {
 	#viewcube{
 		background: brown;
 	}	
+
+	#contentContainer{
+		width: 670px;
+	}
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	#viewcube{
@@ -72,16 +74,8 @@ body,html,input {
 		padding-right: 0;
 	}
 
-	#content{
-		margin-left: 10px;
-		margin-top: 0;
-	}
-
-	#contentContainer{
-		width: 90%;
-	}
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	#viewcube{
@@ -92,39 +86,21 @@ body,html,input {
 		padding-right: 0;
 	}
 
-	#content{
-		margin-left: 10px;
-		margin-top: 0;
-	}
-
-	#contentContainer{
-		width: 98%;
-	}
-
-	#content h1{
-		font-size: 70px
-	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#viewcube{
 		background: blue;
 	}
+
+	html{
+		min-width: 425px;
+	}
+
 	body{
 		padding-left: 0;
 		padding-right: 0;
 	}
-	#content{
-		margin-left: 10px;
-		margin-top: 0;
-	}
 
-	#contentContainer{
-		width: 90%;
-	}
-
-	#content h1{
-		font-size: 55px
-	}
 }

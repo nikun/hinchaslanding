@@ -2,7 +2,7 @@
 	/*min-height: 150px;*/
 }
 
-#carousel a{
+#carousel a, #carouselm a{
 	display: block;
 	float: left;
 	vertical-align: middle;
@@ -12,11 +12,11 @@
 	text-align: center;
 }
 
-#carousel a:HOVER{
+#carousel a:HOVER, #carouselm a:HOVER{
 	background: rgb(63, 177, 144);
 }
 
-#carousel a p{
+#carousel a p, #carouselm a p{
 	margin-top: 5px;
 	color: white;
 }
