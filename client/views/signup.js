@@ -3,7 +3,9 @@ Template.signup.events({
 		event.stopPropagation();
 		var emailValue = template.find('#txtEmail').value
 		if (isValidEmailAddress(emailValue)) {
-			if (Contacts.find({email: emailValue}).count() === 0) {
+			if (Contacts.find({
+				email: emailValue
+			}).count() === 0) {
 
 				//envio mail		
 				Meteor.call('sendEmail', emailValue, Meteor.getLocale());
@@ -13,17 +15,32 @@ Template.signup.events({
 				$('#invite').remove();
 				$('#thks').fadeIn(500);
 				return false;
-			}else{				
+			} else {
 				$('#invite').fadeOut(200);
 				$('#invite').remove();
 				$('#thksMailRepeated').fadeIn(500);
 				return false;
 			}
-		} 
+		} else {
+			$('#txtEmail').popover('show');
+		}
 		return false;
 	},
 	'click #txtEmail': function(event, template) {
 		$('#txtEmail').popover('hide');
+
+	},
+	'click .btnShareTW': function(event, template) {
+		var text = template.find("#hiddenTranslate").value;
+		var url = "http://twitter.com/share?url=HINCH.AS&text=" + text + "%0Awww.hinch.as";
+		var specs = "width=550, height=350";
+		window.open(url, "_blank", specs);
+	},
+	'click .btnShareFB': function(event, template) {
+		var text = template.find("#hiddenTranslate").value;
+		var url = "https://www.facebook.com/sharer/sharer.php?s=100&p[title]=HINCH.AS&p[url]=http://www.hinch.as&p[summary]=" + text + "&p[images][0]=http://www.hinch.as/img/about/logo-About.png";
+		var specs = "width=550, height=350";
+		window.open(url, "_blank", specs);
 	}
 });
 

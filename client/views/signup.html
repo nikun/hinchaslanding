@@ -1,5 +1,6 @@
 <template name='signup'>
 	<div class='signup-container'>
+		<input type='hidden' id='hiddenTranslate' value="{{translate 'landing.sharetextsocialnet'}}">
 		
 		
 		<div class='signup full-width' id='invite'>
@@ -22,9 +23,8 @@
 					<p>{{translate 'landing.sharetext'}}</p>
 				</div>
 				<div class='span4 share-container' id='btnsocialcontainer'>
-					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>{{translate 'landing.btnshare'}}</div></a>
-					<a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div>
-					</a>						
+					<a href="#" class='btnShareTW'><div id='btnShareTw' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div></a>
+					<a href="#" class='btnShareFB'><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div></a>
 				</div>
 			</div>
 		</div>
@@ -35,13 +35,11 @@
 					<p>{{translate 'landing.mailerrorrepeated'}}</p>
 				</div>
 				<div class='span4 share-container' id='btnsocialcontainer'>
-					<a href="https://twitter.com/share" target="_blank" data-url="http://twitter.com/hinchas" data-size="large"><div class='btn btn-primary' id='btnShareTw'>{{translate 'landing.btnshare'}}</div></a>
-					<a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div>
-					</a>						
+					<a href="#" class='btnShareTW'><div id='btnShareTw' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div></a>
+					<a href="#" class='btnShareFB'><div id='btnShareFb' class='btn btn-primary'>{{translate 'landing.btnshare'}}</div></a>
 				</div>
 			</div>
 		</div>
-		
 
 	</div>
 </template>
