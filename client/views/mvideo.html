@@ -1,6 +1,11 @@
 <template name='mvideo'>
-	<div class='span12 visible-phone visible-tablet'>
+	<div id='videoTabletPhone'>
 		<h5>ENCONTRA A TUS IDOLOS EN HINCH.AS</h5>
-		<div class='mvideoContainer'></div>
+		<div class='mvideoContainer'>			
+			<video id='video_background_mobile' controls>			
+				<source src="/video/big_buck_bunny.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+				<p>Your browser does not support H.264/MP4.</p>
+			</video>			
+		</div>
 	</div>
 </template>
