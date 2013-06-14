@@ -41,22 +41,22 @@ devStartup = function() {
 			},
 			"title1": {
 				"i18n": {
-					"de": "Der internationale tag",
+					"de": "Der Internationale Tag",
 					"en": "International",
-					"es": "El día mundial",
-					"fr": "La journee mondiale",
-					"it": "Giorno mondiale",
-					"pt": "O dia mundial"
+					"es": "El Día Mundial",
+					"fr": "La Journee Mondiale",
+					"it": "Giorno Mondiale",
+					"pt": "O Dia Mundial"
 				}
 			},
 			"title1b": {
 				"i18n": {
-					"de": "des fussballfans",
-					"en": "football fan day",
-					"es": "del hincha",
-					"fr": "du supporter",
-					"it": "del tifoso",
-					"pt": "do torcedor"
+					"de": "des Fussballfans",
+					"en": "Football Fan Day",
+					"es": "del Hincha",
+					"fr": "du Supporter",
+					"it": "del Tifoso",
+					"pt": "do Torcedor"
 				}
 			},
 			"title2": {
@@ -91,27 +91,27 @@ devStartup = function() {
 			},
 			"btnaccept": {
 				"i18n": {
-					"de": "aceptarDE",
+					"de": "ANNEHMEN",
 					"en": "ACCEPT",
 					"es": "ACEPTAR",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"fr": "ACCEPTER",
+					"it": "ACCEDI",
+					"pt": "ENTRAR"
 				}
 			},
 			"mailplaceholder": {
 				"i18n": {
-					"de": "aceptarDE",
-					"en": "Type your email",
-					"es": "Ingresa tu correo electrónico",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"de": "Deine E-mail",
+					"en": "Enter your Email",
+					"es": "Ingresar Email",
+					"fr": "Votre adresse électronique",
+					"it": "Inserici l’e-mail",
+					"pt": "Insira o e-mail"
 				}
 			},
 			"language": {
 				"i18n": {
-					"de": "langDE",
+					"de": "Sprache",
 					"en": "Language",
 					"es": "Idioma",
 					"fr": "Langue",
@@ -121,32 +121,32 @@ devStartup = function() {
 			},
 			"btnshare": {
 				"i18n": {
-					"de": "aceptarDE",
+					"de": "Teilen!",
 					"en": "Share",
 					"es": "Compartir",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"fr": "Partager",
+					"it": "Condividere",
+					"pt": "Partilhar"
 				}
 			},
 			"sharetitle": {
 				"i18n": {
-					"de": "aceptarDE",
+					"de": "Wilkommen!",
 					"en": "Welcome!",
-					"es": "Bienvenido!",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"es": "¡Bienvenido!",
+					"fr": "Bienvenu-vous!",
+					"it": "Benvenuto!",
+					"pt": "Bem-vindo!"
 				}
 			},
 			"sharetext": {
 				"i18n": {
-					"de": "aceptarDE",
-					"en": "You're part of the international football fan day, invite your friends to join the party.",
-					"es": "Ya sos parte del dia mundial del Hincha, invita a tus amigos a formar parte de la fiesta.",
-					"fr": "aceptarFR",
-					"it": "aceptarIT",
-					"pt": "aceptarPT"
+					"de": "Du und wieviele mehr? Lade Deine Freunde ein ihren Tag zu wählen",
+					"en": "Invite your friends to this match!",
+					"es": "¿Tú y cuantos más? Invita a tus amigos a elegir su día",
+					"fr": "Toi et combien d’autres? Invite tes amis à choisir leur journée",
+					"it": "Tu e quanti in piú? Invita i tuoiamici a sceglierela loro giornata",
+					"pt": "Você e mais quantos? Convide seus amigos para escolher o seu dia"
 				}
 			},
 			"sharetextsocialnet": {
@@ -181,12 +181,12 @@ devStartup = function() {
 			},
 			"footer": {
 				"i18n": {
-					"de": "Auf Hinch.as, hört Fussball Dich.",
+					"de": "Auf HINCH.AS, hört Fussball Dich.",
 					"en": "On HINCH.AS, football listens to you.",
-					"es": "En Hinch.as, el fútbol te escucha.",
-					"fr": "Sur Hinch.as, le football t’écoute.",
-					"it": "In Hinch.as, il calcio ti ascolta.",
-					"pt": "Em Hinch.as, o futebol te escuta."
+					"es": "En HINCH.AS, el fútbol te escucha.",
+					"fr": "Sur HINCH.AS, le football t’écoute.",
+					"it": "In HINCH.AS, il calcio ti ascolta.",
+					"pt": "Em HINCH.AS, o futebol te escuta."
 				}
 			}
 		}
