@@ -231,3 +231,13 @@
 		margin-top: 6px;
 	}
 }
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+	#langs .dropdown-toggle{
+		line-height: 16px;
+	}
+
+	.social img{
+		margin-top: -33px;
+	} 
+}
