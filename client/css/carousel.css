@@ -64,6 +64,11 @@ h3.carousel-title{
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
+/*
+	#hinchasCarouselContainer {
+		width: 453px;
+		min-width: 411px;		
+	}*/
 	
 }
 

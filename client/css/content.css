@@ -49,7 +49,9 @@
 
 /* Large desktopp*/
 @media (min-width: 1200px) {
-
+	#content{
+		max-width: 600px;
+	}
 }
 
 @media (min-width: 980px) and (max-width: 1199px){
@@ -72,6 +74,29 @@
 	#content h1{
 		font-size: 73px
 	}
+	/*.mbackgroundtexture{
+		background: url("/img/back_videos_mobile.jpg") repeat-x;
+	}
+
+	#content{
+		margin-left: 10px;
+		margin-top: 0;
+	}
+
+	#contentContainer {
+		max-width: 468px;
+		width: 98%;
+	}
+
+	#content h1 {
+		font-size: 45px;
+		padding: 6px 16px 10px;
+	}
+
+	#content h1.secondary {
+		margin-top: -10px;
+		padding-top: 0px;
+	}*/
 }
 
 /* Landscape phone to portrait tablet */

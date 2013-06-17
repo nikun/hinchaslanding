@@ -19,39 +19,72 @@ function evalSize(){
 
 }
 
-function bigDesktop(){
-	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
-		if(error)console.log(error);
+
+function runCarousel(selector,items,width){
+	$(selector).carouFredSel({
+		height				: "auto",
+		width				: width,
+		items               : items,
+		direction           : "left",
+		responsive			: false,
+		scroll : {
+			items           : 1,
+			easing          : "swing",
+			duration        : 500,                        
+			pauseOnHover    : true
+		},
+		auto    : {
+			onBefore: function( data ) {
+				// unhighlight( data.items.old );
+			},
+			onAfter : function( data ) {
+				// highlight( data.items.visible );
+			}
+		}         
 	});
+
+	// highlight( unhighlight( $("#carousel > *") ) );
+}
+
+function bigDesktop(){
+	runCarousel("#carousel",5,585);
+	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 	
 }
 
 function custom(){
-	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
-		if(error)console.log(error);
-	});
+	runCarousel("#carousel",5,585);
+	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 }
 
 function tablet(){
-	Meteor.call("runCarousel","#carousel",5,585,function(error,result){
-		if(error)console.log(error);
-	});
+	runCarousel("#carousel",5,585);
+	// Meteor.call("runCarousel","#carousel",3,400,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 }
 
 function landPhone(){
-	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
-		if(error)console.log(error);
-	});
+	runCarousel("#carouselm",3,400);
+	// Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 }
 
 function phone(){
-	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
-		if(error)console.log(error);
-	});
+	runCarousel("#carouselm",3,400);
+	// Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 }
 
 function phone2(){
-	Meteor.call("runCarousel","#carouselm",2,300,function(error,result){
-		if(error)console.log(error);
-	});
+	runCarousel("#carouselm",2,300);
+	// Meteor.call("runCarousel","#carouselm",2,300,function(error,result){
+	// 	if(error)console.log(error);
+	// });
 }

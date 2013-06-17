@@ -2,6 +2,15 @@
 	width: 100%;
 }
 
+#videoTabletPhone h5{
+	background: #3FB190;
+	padding: 5px;
+	padding-left: 11px;
+	color: white;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
 /* Large desktop*/
 @media (min-width: 1200px) {
 	#videoTabletPhone{
