@@ -230,8 +230,28 @@
 	.navbar .btn-navbar {
 		margin-top: 6px;
 	}
+
+	#imgLogo{
+		width: 200px;
+		margin-top: 3px;
+		margin-left: -23px;
+	}
 }
 
+@media (max-width: 320px){
+	#imgLogo{
+		width: 185px;
+		margin-top: 3px;
+		margin-left: -23px;
+	}	
+
+	.navbar .btn-navbar{
+		margin-top: 0;
+	}
+}
+
+
+/*Media query for retina displays*/
 @media all and (-webkit-min-device-pixel-ratio: 2) {
 	#langs .dropdown-toggle{
 		line-height: 16px;

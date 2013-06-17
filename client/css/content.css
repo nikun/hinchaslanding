@@ -122,6 +122,16 @@
 	}
 }
 
+@media (max-width: 320px){
+	#content h1{
+		font-size: 28px;
+	}
+
+	#secondary-text{
+		font-size: 12px;
+	}
+}
+
 @media all and (-webkit-min-device-pixel-ratio: 2) {
 	#content h1.secondary{
 		margin-top: -14px;

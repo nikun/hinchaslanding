@@ -133,3 +133,9 @@
 		margin-left: 138px;
 	}
 }
+
+@media (max-width: 320px){
+	.signup .btn-primary{
+		margin-left: 77px;
+	}
+}

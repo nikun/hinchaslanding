@@ -13,6 +13,7 @@ function evalSize(){
 	if(w>=1200)bigDesktop();
 	else if(w<1200 && w>=980)custom();
 	else if(w<980 && w>=768)tablet();
+	else if(w<=320)phone2();
 	else if(w<=480)phone();
 	else if(w<=767)landPhone();
 
@@ -45,6 +46,12 @@ function landPhone(){
 
 function phone(){
 	Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
+		if(error)console.log(error);
+	});
+}
+
+function phone2(){
+	Meteor.call("runCarousel","#carouselm",2,300,function(error,result){
 		if(error)console.log(error);
 	});
 }

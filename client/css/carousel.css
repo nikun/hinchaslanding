@@ -78,14 +78,23 @@ h3.carousel-title{
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	
-
 	#hinchasCarouselContainer {
 		width: 96%;
 		min-width: 0px;
 		padding-left: 16px;
 	}
 
+}
+
+@media (max-width: 320px){
+	h3.carousel-title{
+		font-size: 22px;	
+	}
+
+	#hinchasCarouselContainer {
+		padding-left: 0px;
+	}
+	
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 2) {
