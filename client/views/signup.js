@@ -23,6 +23,7 @@ Template.signup.events({
 			}
 		} else {
 			$('#txtEmail').popover('show');
+			$('.popover-content').text($('#txtEmail').attr('data-content'));
 		}
 		return false;
 	},
