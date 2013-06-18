@@ -1,6 +1,9 @@
 #video_background_mobile {
 	width: 100%;
 }
+#video_background_desktop {
+	width: 100%;
+}
 
 #videoTabletPhone h5{
 	background: #3FB190;

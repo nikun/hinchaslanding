@@ -1,13 +1,16 @@
 $(document).ready(function(){
 	Meteor.defer(function(){
-		evalSize();	
+		evalSize();
 		$(window).resize(function(){evalSize()});
+		
 	});
 });
+
 
 $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
 
 function evalSize(){
+	//alert('entro a evalSize!!!!!');
 	var w = $(window).width();
 
 	if(w>=1200)bigDesktop();
@@ -16,7 +19,6 @@ function evalSize(){
 	else if(w<=320)phone2();
 	else if(w<=480)phone();
 	else if(w<=767)landPhone();
-
 }
 
 
@@ -47,6 +49,7 @@ function runCarousel(selector,items,width){
 }
 
 function bigDesktop(){
+	userAgentDetector(false);
 	runCarousel("#carousel",5,585);
 	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 	// 	if(error)console.log(error);
@@ -55,6 +58,7 @@ function bigDesktop(){
 }
 
 function custom(){
+	userAgentDetector(false);
 	runCarousel("#carousel",5,585);
 	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 	// 	if(error)console.log(error);
@@ -62,6 +66,7 @@ function custom(){
 }
 
 function tablet(){
+	userAgentDetector(true);
 	runCarousel("#carousel",5,585);
 	// Meteor.call("runCarousel","#carousel",3,400,function(error,result){
 	// 	if(error)console.log(error);
@@ -69,6 +74,7 @@ function tablet(){
 }
 
 function landPhone(){
+	userAgentDetector(true);
 	runCarousel("#carouselm",3,400);
 	// Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
 	// 	if(error)console.log(error);
@@ -76,6 +82,7 @@ function landPhone(){
 }
 
 function phone(){
+	userAgentDetector(true);
 	runCarousel("#carouselm",3,400);
 	// Meteor.call("runCarousel","#carouselm",3,400,function(error,result){
 	// 	if(error)console.log(error);
@@ -83,8 +90,37 @@ function phone(){
 }
 
 function phone2(){
+	userAgentDetector(true);
 	runCarousel("#carouselm",2,300);
 	// Meteor.call("runCarousel","#carouselm",2,300,function(error,result){
 	// 	if(error)console.log(error);
 	// });
+}
+
+function userAgentDetector(isMobile){
+	//console.log('divMobile: '+$('#video_background_mobile').css('display'));		
+	if(isMobile){
+		$('#video_background').hide();
+
+      	if (navigator.userAgent.match(/Android/i)
+          || navigator.userAgent.match(/webOS/i)
+          || navigator.userAgent.match(/iPhone/i)
+          || navigator.userAgent.match(/iPad/i)
+          || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/BlackBerry/i)
+          || navigator.userAgent.match(/Windows Phone/i)) {
+
+      		$('#video_background_little_desktop').hide();
+          	$('#video_background_mobile').show();
+      	}else{
+      		$('#video_background_little_desktop').show();
+          	$('#video_background_mobile').hide();
+      	}
+
+	}else{
+		$('#video_background').show();
+		$('#video_background_mobile').hide();
+		$('#video_background_little_desktop').hide();		
+	}
+
 }

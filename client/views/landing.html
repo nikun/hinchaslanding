@@ -1,10 +1,16 @@
 <template name='landing'>
 	<div class='row-fluid mainContainer'>
 		<!-- <div id='trama'></div> -->
-		<!-- <video id='video_background' autoplay loop> -->
-			<!-- <source src='http://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.webm' type='video/webm;' codecs='vp8, vorbis'> -->
-			<!-- <source src='/video/big_buck_bunny_480p_stereo.ogg' type='video/webm;' codecs='vp8, vorbis'> -->
-		<!-- </video> -->
+
+		<!--**********webm/640X360 ANDA EN DESKTOP (FIREFOX,CHROME)********-->
+		<!--TODO: 
+			probar con una resolucion mas alta
+			probar IE
+		 -->
+		<video id='video_background' autoplay loop>
+			<source src="http://btl.hinch.as.s3.amazonaws.com/videos/landing/landing640X360.webm" type='video/webm; codecs="vp8, vorbis"' />
+			<p>Your browser does not support WEBM.</p>
+		</video>
 		
 		<div id='viewcube' style='width:50px;height:50px'/>
 		<div class='span7' id='contentContainer'>
