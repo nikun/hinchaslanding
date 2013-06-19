@@ -58,7 +58,7 @@ function bigDesktop(){
 }
 
 function custom(){
-	userAgentDetector(false);
+	userAgentDetector(true);
 	runCarousel("#carousel",5,585);
 	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 	// 	if(error)console.log(error);

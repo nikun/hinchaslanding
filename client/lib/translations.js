@@ -16,5 +16,5 @@ Handlebars.registerHelper('translate', function(key) {
 			console.log('Locale ' + key + ' not found!');
 		}
 	}
-	return false;
+	return;
 });

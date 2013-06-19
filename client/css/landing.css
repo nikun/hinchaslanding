@@ -64,6 +64,11 @@ body,html,input {
 	#contentContainer{
 		width: 670px;
 	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+		background: url("/img/fondo-mobile.jpg");
+	}
 }
 
 /* Portrait tablet to landscape and desktop */

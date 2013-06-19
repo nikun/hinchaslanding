@@ -39,7 +39,7 @@ Template.signup.events({
 	},
 	'click .btnShareFB': function(event, template) {
 		var text = template.find("#hiddenTranslate").value;
-		var url = "https://www.facebook.com/sharer/sharer.php?s=100&p[title]=HINCH.AS&p[url]=http://www.hinch.as&p[summary]=" + text + "&p[images][0]=http://www.hinch.as/img/about/logo-About.png";
+		var url = "https://www.facebook.com/sharer/sharer.php?s=100&p[title]=HINCH.AS&p[url]=http://www.hinch.as&p[summary]=" + text + "&p[images][0]=http://btl.hinch.as.s3.amazonaws.com/img/landing/facebook_share_comment.jpg";
 		var specs = "width=550, height=350";
 		window.open(url, "_blank", specs);
 	}

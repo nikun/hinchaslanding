@@ -1,7 +1,9 @@
 #video_background_mobile {
+	margin-top: 15px;
 	width: 100%;
 }
-#video_background_desktop {
+#video_background_little_desktop {
+	margin-top: 15px;
 	width: 100%;
 }
 
@@ -23,7 +25,7 @@
 
 @media (min-width: 980px) and (max-width: 1199px){
 	#videoTabletPhone{
-		display: none;		
+		display: block;		
 	}
 }
 
