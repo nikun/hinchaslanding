@@ -2,28 +2,37 @@ devStartup = function() {
 
 	console.log('**************** LOADING MOCK DATA!!! ****************');
 
-	//Users.remove({});
-	if (Users.find({}).count() === 0) {
+	// Users.remove({});
+	// if (Users.find({}).count() === 0) {
 
-		Users.insert({
-			firstname: 'Rolfi',
-			lastname: 'Montengero',
-			imageurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg'
-		});
-		Users.insert({
-			firstname: 'Diego Armando',
-			lastname: 'Maradona',
-			imageurl: 'http://4.bp.blogspot.com/-T0IVTBGQv7w/TuIPUGsk66I/AAAAAAAACvM/727phZ7tJpU/s1600/Diego+Maradona+-+The+Legend+of+Football+Player+-+The+Greatest+Player+in+the+World+goal.jpg'
-		});
+	// 	Users.insert({
+	// 		firstname: 'Rolfi',
+	// 		lastname: 'Montengero',
+	// 		imageurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg',
+	// 		lon: 1,
+	// 		lat: 4,
+	// 		country:'AR'
+	// 	});
+	// 	Users.insert({
+	// 		firstname: 'Diego Armando',
+	// 		lastname: 'Maradona',
+	// 		imageurl: 'http://4.bp.blogspot.com/-T0IVTBGQv7w/TuIPUGsk66I/AAAAAAAACvM/727phZ7tJpU/s1600/Diego+Maradona+-+The+Legend+of+Football+Player+-+The+Greatest+Player+in+the+World+goal.jpg',
+	// 		lon: 11,
+	// 		lat: 22,
+	// 		country:'AR'
+	// 	});
 
-		for (i = 0; i < 10; i++) {
-			Users.insert({
-				firstname: 'Sergio',
-				lastname: 'Aguero',
-				imageurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg'
-			});
-		}
-	}
+	// 	for (i = 0; i < 2; i++) {
+	// 		Users.insert({
+	// 			firstname: 'Sergio',
+	// 			lastname: 'Aguero',
+	// 			imageurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg',
+	// 			lon: 1,
+	// 			lat: -84,
+	// 			country:'AR'
+	// 		});
+	// 	}
+	// }
 
 
 	I18n.remove({});
