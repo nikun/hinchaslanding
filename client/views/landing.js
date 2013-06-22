@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	Meteor.defer(function(){
+	Meteor.defer(function(){		
 		evalSize();
 		$(window).resize(function(){evalSize()});
 		
@@ -100,6 +100,7 @@ function phone2(){
 function userAgentDetector(isMobile){
 	//console.log('divMobile: '+$('#video_background_mobile').css('display'));		
 	if(isMobile){
+		$('#video_background')[0].pause();
 		$('#video_background').hide();
 
       	if (navigator.userAgent.match(/Android/i)
@@ -119,8 +120,10 @@ function userAgentDetector(isMobile){
 
 	}else{
 		$('#video_background').show();
+		$('#video_background')[0].play();
 		$('#video_background_mobile').hide();
 		$('#video_background_little_desktop').hide();		
 	}
 
 }
+
