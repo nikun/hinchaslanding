@@ -9,7 +9,7 @@ Meteor.publish('users', function() {
 		lon: {
 			$exists: true
 		}
-	})
+	},{sort: { firstname: 1 }})
 
 });
 
