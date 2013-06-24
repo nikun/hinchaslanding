@@ -2,13 +2,13 @@ devStartup = function() {
 
 	console.log('**************** LOADING MOCK DATA!!! ****************');
 
-	// Users.remove({});
+	
 	// if (Users.find({}).count() === 0) {
 
 	// 	Users.insert({
 	// 		firstname: 'Rolfi',
 	// 		lastname: 'Montengero',
-	// 		imageurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg',
+	// 		imgurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg',
 	// 		lon: 1,
 	// 		lat: 4,
 	// 		country: 'AR'
@@ -16,7 +16,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Hernán Rodrigo',
 	// 		lastname: 'López',
-	// 		imageurl: 'http://www.velezsarsfield.com.ar/img/noticias/10/rct/lopez10.jpg',
+	// 		imgurl: 'http://www.velezsarsfield.com.ar/img/noticias/10/rct/lopez10.jpg',
 	// 		lon: 1,
 	// 		lat: 4,
 	// 		country: 'AR'
@@ -25,7 +25,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Alejandro Darío',
 	// 		lastname: 'Gomez',
-	// 		imageurl: 'http://www.europacalcio.it/redattore/uploads/9567-1366616655/Alejandro-Gomez.jpg',
+	// 		imgurl: 'http://www.europacalcio.it/redattore/uploads/9567-1366616655/Alejandro-Gomez.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -34,7 +34,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Diego Armando',
 	// 		lastname: 'Maradona',
-	// 		imageurl: 'http://4.bp.blogspot.com/-T0IVTBGQv7w/TuIPUGsk66I/AAAAAAAACvM/727phZ7tJpU/s1600/Diego+Maradona+-+The+Legend+of+Football+Player+-+The+Greatest+Player+in+the+World+goal.jpg',
+	// 		imgurl: 'http://4.bp.blogspot.com/-T0IVTBGQv7w/TuIPUGsk66I/AAAAAAAACvM/727phZ7tJpU/s1600/Diego+Maradona+-+The+Legend+of+Football+Player+-+The+Greatest+Player+in+the+World+goal.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -43,7 +43,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Gabriel Iván',
 	// 		lastname: 'Heinze',
-	// 		imageurl: 'http://p2.trrsf.com/image/fget/cf/619/464/images.terra.com/2013/06/16/defensor-gabriel-heinze-newells-sarsfieldlrzima2013051500963.jpg',
+	// 		imgurl: 'http://p2.trrsf.com/image/fget/cf/619/464/images.terra.com/2013/06/16/defensor-gabriel-heinze-newells-sarsfieldlrzima2013051500963.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -52,7 +52,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Diego',
 	// 		lastname: 'Mateo Alustiza',
-	// 		imageurl: 'http://img.futbolparatodos.com.ar/wp-content/uploads/Diego-Mateo.jpg',
+	// 		imgurl: 'http://img.futbolparatodos.com.ar/wp-content/uploads/Diego-Mateo.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -61,7 +61,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Pablo Cesar',
 	// 		lastname: 'Barrientos',
-	// 		imageurl: 'http://img.skysports.com/12/03/218x298/Barrientos_2733204.jpg',
+	// 		imgurl: 'http://img.skysports.com/12/03/218x298/Barrientos_2733204.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -70,7 +70,7 @@ devStartup = function() {
 	// 	Users.insert({
 	// 		firstname: 'Edgar Junior',
 	// 		lastname: 'Çani',
-	// 		imageurl: 'http://maschile.football.it/dyn//images/squadre/rosa_foto/image-92984.jpg',
+	// 		imgurl: 'http://maschile.football.it/dyn//images/squadre/rosa_foto/image-92984.jpg',
 	// 		lon: 11,
 	// 		lat: 22,
 	// 		country: 'AR'
@@ -80,7 +80,7 @@ devStartup = function() {
 	// 		Users.insert({
 	// 			firstname: 'Sergio',
 	// 			lastname: 'Aguero',
-	// 			imageurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg',
+	// 			imgurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg',
 	// 			lon: 1,
 	// 			lat: -84,
 	// 			country: 'AR'
