@@ -50,7 +50,7 @@ function runCarousel(selector,items,width){
 
 function bigDesktop(){
 	userAgentDetector(false);
-	runCarousel("#carousel",5,585);
+	runCarousel("#carousel",4,585);
 	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 	// 	if(error)console.log(error);
 	// });
@@ -59,7 +59,7 @@ function bigDesktop(){
 
 function custom(){
 	userAgentDetector(true);
-	runCarousel("#carousel",5,585);
+	runCarousel("#carousel",4,585);
 	// Meteor.call("runCarousel","#carousel",5,585,function(error,result){
 	// 	if(error)console.log(error);
 	// });
@@ -67,7 +67,7 @@ function custom(){
 
 function tablet(){
 	userAgentDetector(true);
-	runCarousel("#carousel",5,585);
+	runCarousel("#carousel",4,585);
 	// Meteor.call("runCarousel","#carousel",3,400,function(error,result){
 	// 	if(error)console.log(error);
 	// });

@@ -13,7 +13,7 @@ Template.carouselmobile.helpers({
 
 Template.carousel.rendered = function(){
 	var items,width,selector;
-	items=5;
+	items=4;
 	width=585;
 	selector="#carousel";
 	runCarousel(selector,items,width);	

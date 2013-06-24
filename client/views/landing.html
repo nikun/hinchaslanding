@@ -1,12 +1,11 @@
 <template name='landing'>
-	<div class='row-fluid mainContainer'>
-		<!-- <div id='trama'></div> -->
-
-		<!--**********webm/640X360 ANDA EN DESKTOP (FIREFOX,CHROME)********-->
+	<div id='trama'>
+		<div class='row-fluid mainContainer'>
+			<!--**********webm/640X360 ANDA EN DESKTOP (FIREFOX,CHROME)********-->
 		<!--TODO: 
 			probar con una resolucion mas alta
 			probar IE
-		 -->
+		-->
 		<video id='video_background' autoplay loop>
 			<source src="http://btl.hinch.as.s3.amazonaws.com/videos/landing/landing640X360.webm" type='video/webm; codecs="vp8, vorbis"' />
 			<p>Your browser does not support WEBM.</p>
@@ -18,7 +17,8 @@
 		</div>
 
 	</div>
-	{{> mobilefooter}}	
+</div>
+{{> mobilefooter}}	
 
 
 </template>

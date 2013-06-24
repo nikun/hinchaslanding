@@ -129,7 +129,7 @@ devStartup = function() {
 					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir un día para celebrar nuestro amor por el fútbol.",
 					"fr": "Parce que notre cœur s’accélère chaque fois que sonne le coup de sifflet du début. Parce que nous avons la chaire de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, croît en nous un cri non contenu. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
 					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera. Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile… Meritiamodi scegliere un giorno per celebrare il nostro amore per il calcio.",
-					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima da goleiracresce em nosso peito um grito irreprimível, merecemos escolher um dia para celebrar o nosso amor pelo futebol."
+					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima da goleira, cresce em nosso peito um grito irreprimível, merecemos escolher um dia para celebrar o nosso amor pelo futebol."
 				}
 			},
 			"title3": {
@@ -169,7 +169,7 @@ devStartup = function() {
 					"es": "Ingresar Email",
 					"fr": "Votre adresse électronique",
 					"it": "Inserici l’e-mail",
-					"pt": "Insira o e-mail"
+					"pt": "Insira seu e-mail"
 				}
 			},
 			"language": {
