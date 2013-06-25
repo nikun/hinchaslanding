@@ -75,17 +75,17 @@ devStartup = function() {
 	// 		country: 'AR'
 	// 	});
 
-	// 	for (i = 0; i < 2; i++) {
-	// 		Users.insert({
-	// 			firstname: 'Sergio',
-	// 			lastname: 'Aguero',
-	// 			imgurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg',
-	// 			lon: 1,
-	// 			lat: -84,
-	// 			country: 'AR'
-	// 		});
-	// 	}
-	// }
+		// for (i = 0; i < 6; i++) {
+		// 	Users.insert({
+		// 		firstname: 'Sergio',
+		// 		lastname: 'Aguero',
+		// 		imgurl: 'http://us.cdn003.fansshare.com/photos/sergioaguero/manchester-city-sergio-kun-aguero-548833883.jpg',
+		// 		lon: 1,
+		// 		lat: -84,
+		// 		country: 'AR'
+		// 	});
+		// }
+	//}
 
 
 	I18n.remove({});
@@ -146,8 +146,8 @@ devStartup = function() {
 					"de": "Mach Du auch mit",
 					"en": "Join us too",
 					"es": "Súmate tú también",
-					"fr": "Toi et combien d’autres? Invite tes amis à choisir leur journée",
-					"it": "In Hinch.as, il calcio ti ascolta",
+					"fr": "Joins-toi aussi",
+					"it": "Unisciti anche tu",
 					"pt": "Una-se você também"
 				}
 			},

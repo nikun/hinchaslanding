@@ -46,13 +46,13 @@ h3.carousel-title{
 }
 
 #playerName{
-	margin-top: -33px;
+	margin-top: -29px;
 	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
 	position: relative;
 	color: white;
 	font-size: 12px;
-	line-height: 14px;
-	padding-bottom: 5px;
+	line-height: 13px;
+	padding-bottom: 3px;
 }
 
 #hinchasCarouselContainer{

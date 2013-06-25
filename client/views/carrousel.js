@@ -38,7 +38,7 @@ function runCarousel(selector,items,width){
 			items           : 1,
 			easing          : "swing",
 			duration        : 500,                        
-			pauseOnHover    : true
+			pauseOnHover    : false
 		},
 		auto    : {
 			onBefore: function( data ) {
