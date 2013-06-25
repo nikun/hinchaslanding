@@ -176,7 +176,7 @@ devStartup = function() {
 					"de": "Sprache",
 					"en": "Language",
 					"es": "Idioma",
-					"fr": "Français",
+					"fr": "Langue",
 					"it": "Lingua",
 					"pt": "Idioma"
 				}
