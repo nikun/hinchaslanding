@@ -97,7 +97,7 @@ devStartup = function() {
 					"de": "Es kommt der Tag den sich unsere Leidenschaft verdient",
 					"en": "The day that our passion deserves is coming",
 					"es": "Llega el día que nuestra pasión se merece",
-					"fr": "Arrive le jour mérité par notre passion",
+					"fr": "Le jour mérité par notre passion arrive",
 					"it": "Arriva il giorno che la nostra passione si merita",
 					"pt": "Chegará o dia que a nossa paixão merece"
 				}
@@ -107,7 +107,7 @@ devStartup = function() {
 					"de": "Der Internationale Tag",
 					"en": "International",
 					"es": "El Día Mundial",
-					"fr": "La Journee Mondiale",
+					"fr": "La Journée Mondiale",
 					"it": "Giorno Mondiale",
 					"pt": "O Dia Mundial"
 				}
@@ -127,7 +127,7 @@ devStartup = function() {
 					"de": "Gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern. ",
 					"en": "Because every time we hear the starting whistle our heart accelerates. Because when we see our team’s colors we get goose bumps and when the ball approaches the goal an unstoppable scream unleashes from our chest, we deserve to choose a day to celebrate our love for football.",
 					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir un día para celebrar nuestro amor por el fútbol.",
-					"fr": "Parce que notre cœur s’accélère chaque fois que sonne le coup de sifflet du début. Parce que nous avons la chaire de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, croît en nous un cri non contenu. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
+					"fr": "Parce que chaque fois que le coup de sifflet retentit notre cœur s’accélère. Parce que nous avons la chair de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, un cri non contenu monte en nous. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
 					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera. Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile… Meritiamodi scegliere un giorno per celebrare il nostro amore per il calcio.",
 					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima da goleira, cresce em nosso peito um grito irreprimível, merecemos escolher um dia para celebrar o nosso amor pelo futebol."
 				}
@@ -137,7 +137,7 @@ devStartup = function() {
 					"de": "SIE MACHEN SCHON MIT",
 					"en": "THEY HAVE ALREADY JOINED",
 					"es": "ELLOS YA SE SUMARON",
-					"fr": "ILS SE SONT DÉJÀ JOINTS",
+					"fr": "ILS SE SONT DÉJÀ JOINTS À NOUS",								 
 					"it": "LORO SI SONO GIÁ INCORPORATI",
 					"pt": "ELES JÁ ADERIRAM"
 				}
@@ -177,7 +177,7 @@ devStartup = function() {
 					"de": "Sprache",
 					"en": "Language",
 					"es": "Idioma",
-					"fr": "Langue",
+					"fr": "Français",
 					"it": "Lingua",
 					"pt": "Idioma"
 				}
@@ -197,7 +197,7 @@ devStartup = function() {
 					"de": "Wilkommen!",
 					"en": "Welcome!",
 					"es": "¡Bienvenido!",
-					"fr": "Bienvenu-vous!",
+					"fr": "Bienvenue à vous!",
 					"it": "Benvenuto!",
 					"pt": "Bem-vindo!"
 				}

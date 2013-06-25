@@ -25,8 +25,8 @@ body,html,input {
 	height: auto; 
 	overflow: hidden;	*/
 	background: url('/img/pattern.png');
-	height: 100%;
 	margin-top: -15px;
+	/*height: 100%;*/
 }
 
 #viewcube{

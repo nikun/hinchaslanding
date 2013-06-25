@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	Meteor.defer(function(){		
+	Meteor.defer(function(){
 		evalSize();
 		$(window).resize(function(){evalSize()});
-		
 	});
 });
 
@@ -126,4 +125,3 @@ function userAgentDetector(isMobile){
 	}
 
 }
-
