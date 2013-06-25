@@ -3,24 +3,28 @@ Template.signup.events({
 		event.stopPropagation();
 		var emailValue = template.find('#txtEmail').value
 		if (isValidEmailAddress(emailValue)) {
-			if (Contacts.find({
-				email: emailValue
-			}).count() === 0) {
 
-				//envio mail		
-				Meteor.call('sendEmail', emailValue, Meteor.getLocale());
+			// if (Contacts.find({
+			// 	email: emailValue
+			// }).count() === 0) {
 
-				//$('#invite').fadeOut(500);
-				$('#invite').fadeOut(200);
-				$('#invite').remove();
-				$('#thks').fadeIn(500);
-				return false;
-			} else {
-				$('#invite').fadeOut(200);
-				$('#invite').remove();
-				$('#thksMailRepeated').fadeIn(500);
-				return false;
-			}
+			//envio mail		
+			Meteor.call('sendEmail', emailValue, Meteor.getLocale(), function(err, result) {
+
+				if (err) {
+					$('#invite').fadeOut(200);
+					$('#invite').remove();
+					$('#thksMailRepeated').fadeIn(500);
+					return false;
+
+				} else {
+					$('#invite').fadeOut(200);
+					$('#invite').remove();
+					$('#thks').fadeIn(500);
+					return false;
+				}
+			});
+			// }
 		} else {
 			$('#txtEmail').popover('show');
 			$('.popover-content').text($('#txtEmail').attr('data-content'));

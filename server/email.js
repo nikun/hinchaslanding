@@ -14,6 +14,8 @@ Meteor.methods({
           "X-MC-Template": "landing-" + locale
         }
       });
+    }else{
+      throw new Meteor.Error(404, "Mail repeated");
     }
 
   }

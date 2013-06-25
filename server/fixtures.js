@@ -108,7 +108,7 @@ devStartup = function() {
 					"en": "International",
 					"es": "El Día Mundial",
 					"fr": "La Journée Mondiale",
-					"it": "Giorno Mondiale",
+					"it": "Il Giorno Mondiale",
 					"pt": "O Dia Mundial"
 				}
 			},
@@ -124,11 +124,11 @@ devStartup = function() {
 			},
 			"title2": {
 				"i18n": {
-					"de": "Gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern. ",
+					"de": "Weil wir gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern. ",
 					"en": "Because every time we hear the starting whistle our heart accelerates. Because when we see our team’s colors we get goose bumps and when the ball approaches the goal an unstoppable scream unleashes from our chest, we deserve to choose a day to celebrate our love for football.",
 					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir un día para celebrar nuestro amor por el fútbol.",
 					"fr": "Parce que chaque fois que le coup de sifflet retentit notre cœur s’accélère. Parce que nous avons la chair de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, un cri non contenu monte en nous. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
-					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera. Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile… Meritiamodi scegliere un giorno per celebrare il nostro amore per il calcio.",
+					"it": "Perché ogni volta che suona il fischio iniziale, il nostro cuore accelera. Perché quando guardiamo i colori della nostra squadra proviamo un brivido e quando la palla si avvicina all´arco nel nostro petto cresce un grido incontenibile… Meritiamo di scegliere un giorno per celebrare il nostro amore per il calcio.",
 					"pt": "Porque nosso coração dispara cada vez que apita o inicio do jogo, porque ficamos arrepiados quando vemos as cores da nossa equipe e quando a bola se aproxima da goleira, cresce em nosso peito um grito irreprimível, merecemos escolher um dia para celebrar o nosso amor pelo futebol."
 				}
 			},
@@ -154,7 +154,7 @@ devStartup = function() {
 			},
 			"btnaccept": {
 				"i18n": {
-					"de": "ANNEHMEN",
+					"de": "AKZEPTIEREN",
 					"en": "ACCEPT",
 					"es": "ACEPTAR",
 					"fr": "ACCEPTER",
@@ -164,11 +164,11 @@ devStartup = function() {
 			},
 			"mailplaceholder": {
 				"i18n": {
-					"de": "Deine E-mail",
+					"de": "Dein E-mail",
 					"en": "Enter your Email",
 					"es": "Ingresar Email",
 					"fr": "Votre adresse électronique",
-					"it": "Inserici l’e-mail",
+					"it": "Inserisci l´ e-mail", 
 					"pt": "Insira seu e-mail"
 				}
 			},
@@ -194,7 +194,7 @@ devStartup = function() {
 			},
 			"sharetitle": {
 				"i18n": {
-					"de": "Wilkommen!",
+					"de": "Willkommen!",
 					"en": "Welcome!",
 					"es": "¡Bienvenido!",
 					"fr": "Bienvenue à vous!",
@@ -208,7 +208,7 @@ devStartup = function() {
 					"en": "Invite your friends to this match!",
 					"es": "¿Tú y cuantos más? Invita a tus amigos a elegir su día",
 					"fr": "Toi et combien d’autres? Invite tes amis à choisir leur journée",
-					"it": "Tu e quanti in piú? Invita i tuoiamici a sceglierela loro giornata",
+					"it": "Tu sei parte del giorno mondiale del tifoso, invita i tuoi amici a far parte della festa",
 					"pt": "Você e mais quantos? Convide seus amigos para escolher o seu dia"
 				}
 			},
@@ -224,7 +224,7 @@ devStartup = function() {
 			},
 			"mailerrorreq": {
 				"i18n": {
-					"de": "Geben Sie bitte eine gültige E-mail Adresse ein, um mehr Neuigkeiten überHINCH.AS zu erhalten",
+					"de": "Geben Sie bitte eine gültige E-mail Adresse ein, um mehr Neuigkeiten über HINCH.AS zu erhalten",
 					"en": "Please enter a valid email address to have access to more HINCH.AS news",
 					"es": "Por favor, ingrese una dirección de correo electrónico válida para tener más noticias de HINCH.AS",
 					"fr": "S’il vous plaît, veuillez entrer une adresse e-mail valide pour recevoir plus de nouvelles d’HINCH.AS",
@@ -238,7 +238,7 @@ devStartup = function() {
 					"en": "The email address you entered has already been registered",
 					"es": "La dirección de correo que ingresó ya está registrada",
 					"fr": "Cette adresse email est déjà utilisée",
-					"it": "Questo indirizzo email è già stato utilizzato",
+					"it": "Questo indirizzo e-mail è già registrato",
 					"pt": "Esse e-mail já está registrado"
 				}
 			},

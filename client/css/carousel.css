@@ -7,7 +7,7 @@
 	float: left;
 	vertical-align: middle;
 	margin: 3px;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.7);
 	padding: 3px;
 	text-align: center;
 	cursor: default;
@@ -43,7 +43,7 @@ h3.carousel-title{
 	height:130px;
 }
 #hinchasCarouselContainer{
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,0.7);
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding: 2px;
