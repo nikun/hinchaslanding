@@ -1,7 +1,9 @@
 $(document).ready(function(){
+	$('#trama').height($('#contentContainer').height());
 	Meteor.defer(function(){
 		evalSize();
 		$(window).resize(function(){evalSize()});
+
 	});
 });
 
@@ -10,6 +12,7 @@ $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropa
 
 function evalSize(){
 	//alert('entro a evalSize!!!!!');
+	$('#trama').height($('#video_background').height());
 	var w = $(window).width();
 
 	if(w>=1200)bigDesktop();
