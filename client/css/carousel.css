@@ -28,26 +28,39 @@
 }
 
 h3.carousel-title{ 
-	background-color: #F2C700;
+	background-color: rgb(63, 177, 144);
 	max-width: 362px;
-	color: #333;
+	color: white;
 	font-weight: 400;
 	margin-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	display: inline-table;
+	font-size: 18px;
+	line-height: 28px;
 }
 
 .img-player{
-	width:130px;
-	height:130px;
+	width:100px;
+	height:100px;
 }
+
+#playerName{
+	margin-top: -33px;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+	position: relative;
+	color: white;
+	font-size: 12px;
+	line-height: 14px;
+	padding-bottom: 5px;
+}
+
 #hinchasCarouselContainer{
 	background: rgba(0,0,0,0.7);
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding: 2px;
-	padding-top: 15px;
+	padding-top: 4px;
 	min-width: 580px;
 }
 

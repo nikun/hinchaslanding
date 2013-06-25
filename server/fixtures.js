@@ -1,26 +1,25 @@
 devStartup = function() {
 
 	console.log('**************** LOADING MOCK DATA!!! ****************');
-
 	
 	// if (Users.find({}).count() === 0) {
 
-	// 	Users.insert({
-	// 		firstname: 'Rolfi',
-	// 		lastname: 'Montengero',
-	// 		imgurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg',
-	// 		lon: 1,
-	// 		lat: 4,
-	// 		country: 'AR'
-	// 	});
-	// 	Users.insert({
-	// 		firstname: 'Hernán Rodrigo',
-	// 		lastname: 'López',
-	// 		imgurl: 'http://www.velezsarsfield.com.ar/img/noticias/10/rct/lopez10.jpg',
-	// 		lon: 1,
-	// 		lat: 4,
-	// 		country: 'AR'
-	// 	});
+		// Users.insert({
+		// 	firstname: 'Rolfi',
+		// 	lastname: 'Montengero',
+		// 	imgurl: 'http://deportes.publimetro.com.mx/wp-content/uploads/2012/12/rolfi-montenegro.jpg',
+		// 	lon: 1,
+		// 	lat: 4,
+		// 	country: 'AR'
+		// });
+		// Users.insert({
+		// 	firstname: 'Hernán Rodrigo',
+		// 	lastname: 'López',
+		// 	imgurl: 'http://www.velezsarsfield.com.ar/img/noticias/10/rct/lopez10.jpg',
+		// 	lon: 1,
+		// 	lat: 4,
+		// 	country: 'AR'
+		// });
 
 	// 	Users.insert({
 	// 		firstname: 'Alejandro Darío',
