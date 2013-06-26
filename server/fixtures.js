@@ -94,11 +94,11 @@ devStartup = function() {
 			"title0": {
 				"i18n": {
 					"de": "Es kommt der Tag den sich unsere Leidenschaft verdient",
-					"en": "The day that our passion deserves is coming",
-					"es": "Llega el día que nuestra pasión se merece",
-					"fr": "Le jour mérité par notre passion arrive",
-					"it": "Arriva il giorno che la nostra passione si merita",
-					"pt": "Chegará o dia que a nossa paixão merece"
+					"en": "We are going to choose the",
+					"es": "Vamos a elegir",
+					"fr": "On va choisir",
+					"it": "Sceglieremo",
+					"pt": "Vamos escolher"
 				}
 			},
 			"title1": {
@@ -123,7 +123,7 @@ devStartup = function() {
 			},
 			"title2": {
 				"i18n": {
-					"de": "Weil wir gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussbal zu feiern. ",
+					"de": "Weil unser Herz schneller schlägt jedes Mal wenn die Anfangspeife ertönt. Weil wir Gänsehaut kriegen wenn wir die Farben unseres Vereins sehen und ein Schrei aus unserer Brust raus will wenn der Ball sich dem Tor nähert, deshalb sind wir es wert einen Tag zu wählen um unsere Liebe zum Fussball zu feiern.",
 					"en": "Because every time we hear the starting whistle our heart accelerates. Because when we see our team’s colors we get goose bumps and when the ball approaches the goal an unstoppable scream unleashes from our chest, we deserve to choose a day to celebrate our love for football.",
 					"es": "Porque cada vez que suena el silbato inicial nuestro corazón se acelera. Porque cuando vemos los colores de nuestro equipo se nos eriza la piel y cuando la pelota se acerca al arco crece en nuestro pecho un grito incontenible, merecemos elegir un día para celebrar nuestro amor por el fútbol.",
 					"fr": "Parce que chaque fois que le coup de sifflet retentit notre cœur s’accélère. Parce que nous avons la chair de poule quand nous voyons les couleurs de notre équipe et quand le ballon s’approche des buts, un cri non contenu monte en nous. Nous méritons de choisir une journée pour fêter notre amour pour le football.",
