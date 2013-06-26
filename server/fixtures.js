@@ -93,12 +93,12 @@ devStartup = function() {
 		"landing": {
 			"title0": {
 				"i18n": {
-					"de": "Es kommt der Tag den sich unsere Leidenschaft verdient",
-					"en": "We are going to choose the",
-					"es": "Vamos a elegir",
-					"fr": "On va choisir",
-					"it": "Sceglieremo",
-					"pt": "Vamos escolher"
+					"de": "ES KOMMT DER TAG DEN SICH UNSERE LEIDENSCHAFT VERDIENT",
+					"en": "WE ARE GOING TO CHOOSE THE",
+					"es": "VAMOS A ELEGIR",
+					"fr": "ON VA CHOISIR",
+					"it": "SCEGLIEREMO",
+					"pt": "VAMOS ESCOLHER"
 				}
 			},
 			"title1": {
